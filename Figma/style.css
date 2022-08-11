@@ -1,0 +1,725 @@
+
+
+
+
+
+
+
+
+
+ 
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+
+.navi
+{
+    background-color: blue;
+    height: 5rem;
+    border: 1px solid black;
+}
+
+.navi h3
+{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+.big
+{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.task1
+{
+    position: absolute;
+    width: 461px;
+    height: 320px;
+    left: 243px;
+    top: 403px;
+    border-radius: 13px;
+    font-size: 16px;
+    word-spacing: 5px;
+    font-weight: bold;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.lorem
+{
+    padding: 0 14px 0 14px;
+}
+
+
+.task1 h3,
+.task2 h3,
+.task4 h3,
+.task5 h3,
+.task6 h3,
+.task7 h3,
+.task8 h3
+{
+    font-weight: 300;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 0;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.icon1
+{
+    position: absolute;
+    right: 10%;
+    bottom: 2%;
+}
+
+.icon2
+{
+    padding-left: 20px;
+}
+
+.task2
+{
+    position: absolute;
+    z-index: 1;
+    width: 448px;
+    height: 627px;
+    left: 768px;
+    top: 399px;
+    border: 1px solid rgb(247, 245, 245);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.task2 h2
+{
+    font-size: 20px;
+}
+
+.task2 h4
+{
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.box1 {
+    width: 40%;
+    height: 12%;
+    margin-left: 5%;
+    top: 23%;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid rgb(248, 239, 239);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box2 {
+    width: 40%;
+    height: 12%;
+    background-color: #a098982b;
+    margin: 0 5%;
+    position: absolute;
+    top: 18%;
+    z-index: -1;
+    border: 0.1px solid #f4f0f0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box1 p,
+.box2 p
+{
+    margin-top: 0;
+}
+
+.box3 {
+    width: 40%;
+    height: 12%;
+    margin-left: 5%;
+    top: 23%;
+    left: 48%;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid rgb(248, 239, 239);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box4 {
+    width: 40%;
+    height: 12%;
+    background-color: #a098982b;
+    margin: 0 5%;
+    left: 48%;
+    position: absolute;
+    top: 18%;
+    z-index: -1;
+    border: 0.1px solid #f4f0f0f5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box3 p,
+.box4 p
+{
+    margin-top: 0;
+}
+
+.bulb
+{
+    position: absolute;
+    top: 40%;
+    left: 16%;
+}
+
+.chat
+{
+    position: absolute;
+    top: 40%;
+    left: 22%;
+}
+
+.btn1
+{
+   
+    padding: 1.6%;
+    background-color: white;
+    border-radius: 7px;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    font-size: 10px;
+    
+}
+
+.btn2
+{
+    padding: 1.6%;
+    background-color: white;
+    border-radius: 7px;
+    position: absolute;
+    top: 40%;
+    left: 63%;
+    font-size: 10px;
+}
+
+.btn3 
+{
+    padding: 1.6%;
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    background-color: blue;
+    color: white;
+    border: 1px;
+    font-size: 10px;
+}
+
+.box5 h4,
+.box6 h4
+{
+    margin-left: 5%;
+}
+
+.box5 p,
+.box6 p
+{
+    margin-top: 0;
+}
+
+.box5 {
+    width: 88%;
+    height: 12%;
+    margin-left: 5%;
+    top: 65%;
+    position: absolute;
+    padding-left: 8px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid rgb(248, 239, 239);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box6 {
+    width: 88%;
+    height: 12%;
+    background-color: #a098982b;
+    padding-left: 8px;
+    margin: 0 5%;
+    position: absolute;
+    top: 60%;
+    z-index: -1;
+    border: 0.1px solid #f4f0f0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.link
+{
+    position: absolute;
+    top: 80%;
+}
+
+.text
+{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.pen
+{
+    position: absolute;
+    top: 80%;
+    left: 31%;
+}
+
+.btn4
+{
+    padding: 1.6%;
+    background-color: white;
+    border-radius: 7px;
+    position: absolute;
+    top: 80%;
+    left: 63%;
+    font-size: 10px;
+}
+
+
+.btn5 {
+    font-size: 10px;
+    padding: 2.6%;
+    border-radius: 7px;
+    position: absolute;
+    top: 88%;
+    left: 68%;
+    background-color: blue;
+    color: white;
+    border: 1px;
+}
+
+
+.save
+{
+
+    position: absolute;
+    top: 96%;
+    font-size: 20px;
+    right: 7%;
+}
+
+.task3 {
+    position: absolute;
+    /* border: 1px solid; */
+    width: 448px;
+    left: 48rem;
+    /* border-top: cornflowerblue; */
+    border: 1px solid #00000026;
+    padding: 0%;
+    top: 61.5rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgb(149 157 165 / 44%) 0px 8px 24px;
+}
+
+.task3-icon
+{
+    position: absolute;
+    right: 30px;
+    bottom: 0rem;
+}
+
+.task3 h4
+{
+    color: white;
+}
+    
+
+.task4
+{
+    position: absolute;
+    width: 456px;
+    height: 264px;
+    left: 264px;
+    top: 1053px;
+    border-radius: 16px;
+    margin: 10px;
+    box-shadow: rgb(149 157 165 / 44%) 0px 8px 24px;
+
+}
+
+.task4-card
+{
+    border: 1px solid;
+    width: 88%;
+    margin: 5%;
+    height: 10rem;
+    border-radius: 16px;
+    box-shadow: rgb(149 157 165 / 44%) 0px 8px 24px;
+
+}
+
+.task4-icon
+{
+    position: absolute;
+    right: 3rem;
+}
+
+.task5
+{
+    position: absolute;
+    width: 452px;
+    height: 612px;
+    left: 768px;
+    top: 1053px;
+    margin: 10px;
+    box-shadow: rgb(149 157 165 / 44%) 0px 8px 24px;
+}
+
+.task5 img
+{
+    width: 452px;
+}
+
+
+.task6
+{
+    position: absolute;
+    width: 452px;
+    height: 777px;
+    left: 268px;
+    top: 1726px;
+    border: 0.5px solid #80808052;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: rgb(149 157 165 / 44%) 0px 8px 24px;
+}
+
+.task6-box1 {
+    width: 74%;
+    height: 9.5%;
+    margin-left: 5%;
+    top: 14%;
+    left: 6%;
+    position: absolute;
+    z-index: 1;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid rgb(248, 239, 239);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.task6 h4
+{
+   
+    background-color: #8080802e;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.task6-box2 {
+    width: 65%;
+    height: 9%;
+    margin-left: 5%;
+    top: 35%;
+    position: absolute;
+    z-index: 1;
+    left: 4rem;
+    background-color: white;
+    border: 1px solid rgb(248, 239, 239);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.task6-box3
+{
+    width: 65%;
+    height: 12%;
+    background-color: #a098982b;
+    margin: 0 5%;
+    position: absolute;
+    left: 4rem;
+    top: 32%;
+    z-index: -1;
+    border: 0.1px solid #f4f0f0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.task6-box2 p,
+.task6-box3 p,
+.task6-box4 p,
+.task6-box5 p
+{
+    margin: 0;
+    padding-left: 8px;
+}
+
+.task6-h4-2
+{
+    position: relative;
+    top: 12%;
+}
+
+.task6-btn-1
+{
+
+    padding: 1.6%;
+    border-radius: 7px;
+    position: absolute;
+    top: 47%;
+    left: 19%;
+    background-color: blue;
+    color: white;
+    border: 1px;
+
+}
+
+.task6-box4
+{
+    width: 65%;
+    height: 12%;
+    background-color: #a098982b;
+    margin: 0 5%;
+    position: absolute;
+    left: 4rem;
+    top: 53%;
+    z-index: -1;
+    border: 0.1px solid #f4f0f0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.task6-box5{
+    width: 65%;
+    height: 9%;
+    margin-left: 5%;
+    top: 56%;
+    position: absolute;
+    z-index: 1;
+    left: 4rem;
+    background-color: white;
+    border: 1px solid rgb(248, 239, 239);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.task6-btn-2
+{
+    font-size: 15px;
+    padding: 2.6%;
+    border-radius: 7px;
+    position: absolute;
+    top: 68%;
+    left: 68%;
+    background-color: blue;
+    color: white;
+    border: 1px;
+
+}
+
+.task6-h4-3
+{
+    position: relative;
+    top: 54%;
+}
+
+.task6-box6
+{
+    width: 65%;
+    height: 9%;
+    margin-left: 5%;
+    top: 82%;
+    position: absolute;
+    z-index: 1;
+    left: 4rem;
+    background-color: white;
+    border: 1px solid rgb(248, 239, 239);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.save2
+{
+    position: absolute;
+    top: 94%;
+    font-size: 20px;
+    right: 7%;
+}
+
+.task6-back {
+    position: relative;
+    z-index: -1;
+    border: 0.5px solid #80808030;
+    border-top: none;
+    top: 72%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+}
+
+.task6-back h4
+{
+    color: white;
+    margin: 0;
+    background-color:#ffffff;
+
+}
+
+.task3-icon {
+    position: absolute;
+    right: 30px;
+}
+
+
+.task7
+{
+    position: absolute;
+    width: 472px;
+    height: 222px;
+    left: 768px;
+    top: 1700px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.task7 img
+{
+    width: 320px;
+    padding: 10px;
+    position: absolute;
+    left: 60px;
+}
+
+
+.task8
+{
+    position: absolute;
+    width: 498px;
+    height: 322px;
+    left: 496px;
+    top: 2703px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.task8 h3
+{
+    margin-bottom: 0;
+}
+
+.task8 iframe
+{
+    width: 498px;
+    margin-top: 5px;
+    height: 245px;
+    left: 496px;
+}
+
